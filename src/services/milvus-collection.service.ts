@@ -38,7 +38,7 @@ export class MilvusCollectionService {
     return this.milvusService.apiClient.listCollections(params);
   }
 
-  async has(params: HttpBaseReq): Promise<HttpCollectionHasResponse> {
+  async has(params: Required<HttpBaseReq>): Promise<HttpCollectionHasResponse> {
     return this.milvusService.apiClient.hasCollection(params);
   }
 
