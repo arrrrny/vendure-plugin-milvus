@@ -1,6 +1,6 @@
 {
   "name": "vendure-plugin-milvus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Milvus plugin for Vendure",
   "author": "ARRRRNY",
   "repository": "https://github.com/arrrrny/vendure-plugin-milvus",
